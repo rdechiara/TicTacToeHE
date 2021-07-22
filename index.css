@@ -1,0 +1,97 @@
+@font-face
+{
+    font-family: "The Stranger Brush";
+    src: url('the-stranger/The\ Stranger\ Brush.ttf');
+}
+h3,h4
+{
+    font-family: "The Stranger Brush";
+    color: #900;
+    font-size: 2em;
+    
+}
+h4
+{
+    font-size: 1.5em;
+    margin-top: 1px;
+}
+body
+{
+    background-color: black;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    font-family: "The Stranger Brush";
+}
+
+button
+{
+    font-family: "The Stranger Brush";
+    font-size: 30px;
+    color: #900;
+    background-color: #000000;
+    border-color: #900;
+}
+.flex-grid
+{
+    display: flex;
+    flex-direction: column;
+}
+.flex-grid > .flex-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.flex-grid > .flex-row > button
+{
+    width: 100px;
+    height: 100px;
+}
+
+[name="b11"]
+{
+    border-top: 0;
+    border-left: 0;
+}
+[name="b21"]
+{
+    border-left: 0;
+}
+[name="b31"]
+{
+    border-left: 0;
+    border-bottom: 0;
+}
+[name="b12"]
+{
+    border-top: 0;
+}
+[name="b13"]
+{
+    border-top: 0;
+    border-right: 0;
+}
+[name="b23"]
+{
+    border-right: 0;
+}
+[name="b33"]
+{
+    border-right:0;
+    border-bottom: 0;
+}
+[name="b32"]
+{
+    border-bottom: 0;
+}
+#board
+{
+    background-color: transparent;
+}
+
+button
+{
+    background-color: transparent;
+}

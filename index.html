@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div class="flex-grid">
+        <div class="flex-row" style="justify-content: center;">
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h3>TIC TAC TOE</h3>
+                <h4>(Halloween Edition)</h4>
+            </div>
+        </div>
+        <div class="flex-row" style="justify-content: center;">
+            <div></div>
+            <div class="flex-grid" id="board" >
+                <div class="flex-row">
+                    <button id="11" name="b11">-</button>
+                    <button id="12" name="b12">-</button>
+                    <button id="13" name="b13">-</button>
+                </div>
+                <div class="flex-row">
+                    <button id="21" name="b21">-</button>
+                    <button id="22" name="b22">-</button>
+                    <button id="23" name="b23">-</button>
+                </div>
+                <div class="flex-row">
+                    <button id="31" name="b31">-</button>
+                    <button id="32" name="b32">-</button>
+                    <button id="33" name="b33">-</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row" style="justify-content: center;">
+            <h3 id="winner"> &nbsp;</h3>
+        </div>
+    </div>
+   
+    <script src="model.js"></script>
+    <script src="controller.js"></script>
+    <script src="view.js"></script>
+</body>
+</html>
