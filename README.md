@@ -1,5 +1,5 @@
 # TicTacToeHE
-Questo progetto implementa il gioco del Tic Tac Toe e fa parte delle sfida poste dal corso gratuito e open source chiamato "The Odin Project", consultabile al seguente indirizzo: https://www.theodinproject.com/. In particolare le indicazioni per il presente progetto sono disponibili qui: https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/tic-tac-toe. 
+Questo progetto implementa il gioco del Tic Tac Toe e fa parte delle sfide poste dal corso gratuito e open source chiamato "The Odin Project", consultabile al seguente indirizzo: https://www.theodinproject.com/. In particolare le indicazioni per il presente progetto sono disponibili qui: https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/tic-tac-toe. 
 
 # Tecnologie impiegate
 - HTML;
